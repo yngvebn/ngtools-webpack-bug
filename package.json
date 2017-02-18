@@ -1,0 +1,31 @@
+{
+  "name": "ngtools-webpack-bug",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/yngvebn/ngtools-webpack-bug.git",
+    "type": "git"
+  },
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": "Yngve Bakken Nilsen <yngve.nilsen@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@angular/common": "^2.4.7",
+    "@angular/compiler": "^2.4.7",
+    "@angular/compiler-cli": "^2.4.7",
+    "@angular/core": "^2.4.7",
+    "@angular/http": "^2.4.7",
+    "@angular/platform-browser": "^2.4.7",
+    "@angular/platform-browser-dynamic": "^2.4.7",
+    "@angular/router": "^3.4.7",
+    "@angular/tsc-wrapped": "^0.5.2",
+    "@ngtools/webpack": "^1.2.10",
+    "html-loader": "^0.4.4",
+    "rxjs": "^5.1.1",
+    "typescript": "^2.1.6",
+    "webpack": "^2.2.1",
+    "zone.js": "^0.7.7"
+  }
+}

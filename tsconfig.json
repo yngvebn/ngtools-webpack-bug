@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "module": "es2015",
+        "target": "es5",
+        "baseUrl": "./src",
+        "outDir": "public",
+        "noImplicitAny": false,
+        "sourceMap": false,
+        "emitDecoratorMetadata": true,
+        "declaration": false,
+        "experimentalDecorators": true,
+        "lib": [
+            "es5",
+            "dom"
+        ]
+    },
+    "include": [
+        "types/**/*",
+        "src/app/app.module.ts"
+    ],
+    "exclude": [
+    ],
+    "angularCompilerOptions": {
+        "genDir": ".",
+        "entryModule": "./src/app/app.module.ts#AppModule",
+        "debug": "true",
+        "mainPath": "./src/main.ts"
+    }
+}
